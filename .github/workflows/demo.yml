@@ -1,0 +1,11 @@
+demo.yaml
+# This workflow will install Python dependencies, run tests with a variety of
+Python versions
+
+name: Python app
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
